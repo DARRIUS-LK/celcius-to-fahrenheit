@@ -1,4 +1,4 @@
 celcius = input('please input celcius:' )
-celcius = int(celcius)
-fahrenheit = celcius*(9/5)+(32)
-print(fahrenheit)
+celcius = float(celcius)
+fahrenheit = celcius * 9 / 5 + 32
+print(fahrenheit, 'f')
